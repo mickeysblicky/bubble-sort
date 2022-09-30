@@ -5,8 +5,6 @@ def bubble_sort (arr)
             if index != arr.length-1 && num > arr[index+1]
                 arr.insert(index, arr[index+1])
                 arr.delete_at(index+2)
-                puts "#{num} swapped with #{arr[index]}"
-                p arr
             end
         end
     end
